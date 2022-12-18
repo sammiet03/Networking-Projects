@@ -1,5 +1,5 @@
 # Networking-Projects
-#### Hello, here are some of the projects I have created to help myself learn computer networking concepts and study for the CCNA exam!
+#### Hello, here are some of the projects I have created to help myself learn computer networking concepts and study for the CCNA exam! As well as demonstrate my knowledge on fundamental computer networking topics. 
 
 
 ##### Creating a home lab with the use GNS3 
