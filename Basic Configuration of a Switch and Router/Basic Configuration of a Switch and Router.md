@@ -1,16 +1,112 @@
 ### Basic Configuration of a Switch and Router
 
-##### Topology we will be working with 
-
-
-##### Steps
-
 #### Configuring Hostnames of the routers and switches to an appropriate name
-1. Click on the router or switch that you want to change the hostname on 
-2. Click CLI and from EXEC mode enter Privileged EXEC mode by typing 'enable' and hitting enter
-3. Then from Privileged EXEC mode, type in 'config t' and hit enter
-4. Now from Global configuration mode you can type in 'hostname SW1' and hit enter 
 
-- You now have just configured a hostname for one of your routers/switches, repeat this process for all of the remaining devices
+```
+Switch1> enable
+Switch1# config t
+Switch1(config)# hostname SW1
+SW1(config)# end 
+SW1#
+```
+- These same steps can be repeated on a router.
+
+
+#### Assigning an IP address to a Switch 
+
+- On switches, IP addresses are configured under a logical interface such as a management domain or a VLAN. The default Native VLAN for any switch is VLAN 1. It is a recommended security practice to change the Native VLAN to a different VLAN number other than VLAN 1. But in this example, we will stick with VLAN 1. 
+```
+SW1> enable
+SW1# config t
+SW1(config)# int vlan 1
+SW1(config-if)# ip address 10.0.0.1 255.255.255.0
+SW1(config-if)# no shutdown 
+```
+
+
+#### Assigning an IP address to a Router 
+
+```
+R1> enable
+R1# config t
+R1(config)# int f0/1
+R1(config-if)# ip address 10.0.2.1 255.255.255.0
+R1(config-if)# no shutdown
+```
+- The "no shutdown" command will bring the interface up (turn on).
+
+#### Applying password protection onto our Switches and Routers 
+
+- Enable password command is used for securing privilege mode (SW1#) with a clear text password
+
+```
+SW1> en
+SW1# config t
+SW1(config)# enable password NetworkingIsCool!
+SW1(config)# end
+SW1#
+```
+
+- Enable secret command is also used to secure privileged mode, but it will encrypt the password with a MD5 algorithm. This means that if you perform the #show  run command, the password in the output of the command will show that a password has been configured but the password will show up encrypted. 
+
+```
+R1> en
+R1# config t
+R1(config)# enable secret NetworkingIsCool!
+R1(config)# end
+R1#
+```
+
+- Here is the output of the #show run command on R1, after using the enable secret command
+
+```
+Router#show run 
+Building configuration...
+
+Current configuration : 705 bytes
+!
+version 16.6.4
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Router
+!
+!
+!
+enable secret 5 $1$mERr$/Q/mbs3O9oHsKR7rNG4e81
+```
+
+- To secure access through the console port you can also configure a password 
+
+```
+SW1> en
+SW1# config t
+SW1(config)# line console 0 
+SW1(config-line)# password NetworkingIsCool!
+SW1(config-line)# login 
+```
+
+- You can also configure a password through VTY lines (Telnet or SSH)
+
+```
+SW1> en
+SW1# config t
+SW1(config)# line vty 0 5 
+SW1(config-line)# password NetworkingIsCool!
+Sw1(config-line)# exit
+```
+
+#### Securing all plain text passwords configured in the running configuration 
+- Use the service password-encryption command to use the MD5 hashing algorithm to encrypt all clear text passwords in the running config
+```
+R1> en 
+R1# config t
+R1(config)# service password-encryption
+R1(config)# end
+R1#
+```
+
+
 
 
