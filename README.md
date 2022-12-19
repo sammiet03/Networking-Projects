@@ -4,9 +4,6 @@
 - Resources I used to study for the CCNA include Jeremy's IT Lab and Neil Anderson's CCNA course.  
 
 
-##### Creating a home lab with the Packet Tracer 
-- [Here is how I created my home lab](https://github.com/sammiet03/Networking-Projects/blob/main/Networking%20Home%20Lab/Networking%20Home%20Lab%20in%20Packet%20Tracer.md)
-
 ##### Basic Configuration of a Switch and Router
 
 
