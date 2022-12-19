@@ -5,7 +5,7 @@
 ##### [Basic Configuration of a Switch and Router](https://github.com/sammiet03/Networking-Projects/blob/main/Basic%20Configuration%20of%20a%20Switch%20and%20Router/Basic%20Configuration%20of%20a%20Switch%20and%20Router.md)
 
 
-##### Configuring Static Routes
+##### [Configuring Static Routes]()
 
 
 ##### Configuring a Multilayer Switch
