@@ -4,7 +4,7 @@
 - Resources I used to study for the CCNA include Jeremy's IT Lab and Neil Anderson's CCNA course.  
 
 
-##### Basic Configuration of a Switch and Router
+##### [Basic Configuration of a Switch and Router](https://github.com/sammiet03/Networking-Projects/blob/main/Basic%20Configuration%20of%20a%20Switch%20and%20Router/Basic%20Configuration%20of%20a%20Switch%20and%20Router.md)
 
 
 ##### Configuring Static Routes
