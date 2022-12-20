@@ -106,7 +106,24 @@ R1(config)# service password-encryption
 R1(config)# end
 R1#
 ```
+#### Half Duplex and Full Duplex
+- Duplex communication system is a point-to-point system where 2 devices can communicate with each other in both direction. 
+- Half duplex means that a port interface can only send data when it is not receiving data. It cannot send and receive data at the same time. 
+- Full duplex means that all nodes can send and receive on their port at the same time. 
 
+#### Configuration for Half Duplex on a Switch
+```
+SW1(config)# int fa0/3
+SW1(config-if)# speed 100 
+SW1(config-if)# duplex half
+```
+
+#### Configuration for Full Duplex on a Switch
+```
+SW1(config)# int fa0/5
+SW1(config-if)# speed 1000
+SW1(config-if)# duplex full 
+```
 
 
 
