@@ -4,7 +4,7 @@
 ### <ins>Switching Topics</ins>
 ##### [Basic Configuration of a Switch and Router](https://github.com/sammiet03/Networking-Projects/blob/main/Basic%20Configuration%20of%20a%20Switch%20and%20Router/Basic%20Configuration%20of%20a%20Switch%20and%20Router.md)
 
-##### Configuring a Multilayer Switch
+##### [Configuring a Multilayer Switch](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20a%20Multilayer%20Switch/Configuring%20a%20Multilayer%20Switch.md)
 
 #### Configuring VLANs
 
