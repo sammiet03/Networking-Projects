@@ -86,11 +86,6 @@
 
 ##### STP and HSRP Synchronization 
 
-##### Wireless LANs
 
 
-
-
-##### Ansible Playbook 
-- [Ansible Project Walkthrough](https://github.com/sammiet03/Networking-Projects/blob/main/Ansible/Ansible%20Playbook.md)
 
