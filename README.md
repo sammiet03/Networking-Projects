@@ -1,4 +1,4 @@
-# Networking-Projects
+# Networking Labs
 #### Hello, here are some of the labs I have completed to learn the networking concepts on the CCNA. To demonstrate my knowledge I have shared the configurations I have completed while working on labs for each of the topics below.
  
 ### <ins>Switching Topics</ins>
