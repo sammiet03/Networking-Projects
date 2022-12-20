@@ -1,34 +1,33 @@
 # Networking-Projects
 #### Hello, here are some of the labs I have completed to learn the networking concepts on the CCNA. To demonstrate my knowledge I have shared the configurations I have completed while working on labs for each of the topics below.
  
-
+### <ins>Switching Topics</ins>
 ##### [Basic Configuration of a Switch and Router](https://github.com/sammiet03/Networking-Projects/blob/main/Basic%20Configuration%20of%20a%20Switch%20and%20Router/Basic%20Configuration%20of%20a%20Switch%20and%20Router.md)
-
-
-##### [Configuring Static Routes](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20Static%20Routes/Configuring%20Static%20Routes.md)
-
 
 ##### Configuring a Multilayer Switch
 
+#### Configuring VLANs
+
+##### Configuring Voice VLANs 
 
 ##### DTP and VTP
 
-
 ##### STP
 
-
 ##### Rapid STP
-
-
 
 ##### EtherChannel 
 
 
+
+
+
+### <ins>Routing Topics</ins>
+##### [Configuring Static Routes](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20Static%20Routes/Configuring%20Static%20Routes.md)
+
 ##### Configuring Floating Static Routes
 
-
 ##### EIGRP Configuration 
-
 
 ##### OSPF 
 
@@ -38,21 +37,20 @@
 
 ##### Configuring IPv6 Addresses 
 
-##### Access Control Lists 
-
-##### NTP
-
-
-##### DNS and DHCP
-
-##### SNMP
-
-##### Configuring SSH
-
 ##### Static NAT and Dynamic NAT
 
 
-##### Configuring Voice VLANs 
+
+
+
+
+
+
+### <ins>Security Topics</ins>
+
+##### Access Control Lists 
+
+##### Configuring SSH
 
 ##### Configuring Port Security 
 
@@ -60,16 +58,37 @@
 
 ##### Dynamic ARP Inspection 
 
-##### STP and HSRP Synchronization 
-
-
 ##### GRE Tunnels 
-
-##### Wireless LANs
 
 ##### Configuring a ASA Firewall 
 
-##### Connected Product Application Final Project - Fall 2022 
+##### NTP
+
+
+
+
+
+
+
+### <ins>Network Management</ins>
+
+##### SNMP
+
+
+
+
+
+
+
+
+
+##### DNS and DHCP
+
+##### STP and HSRP Synchronization 
+
+##### Wireless LANs
+
+
 
 
 ##### Ansible Playbook 
