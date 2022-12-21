@@ -1,5 +1,5 @@
 # Networking Labs
-#### Hello, here are some of the labs I have completed to learn the networking concepts on the CCNA. To demonstrate my knowledge I have shared the configurations I have completed while working on labs for each of the topics below.
+#### Hello, here are some of the labs I have completed to learn the networking concepts on the CCNA. To demonstrate my knowledge I have shared my notes and the configurations I have completed while working on labs for each of the topics below.
  
 ### <ins>Switching Topics</ins>
 ##### [Basic Configuration of a Switch and Router](https://github.com/sammiet03/Networking-Projects/blob/main/Basic%20Configuration%20of%20a%20Switch%20and%20Router/Basic%20Configuration%20of%20a%20Switch%20and%20Router.md)
