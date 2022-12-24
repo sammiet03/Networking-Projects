@@ -20,7 +20,7 @@
 
 ##### Rapid STP
 
-##### [EtherChannel] (https://github.com/sammiet03/Networking-Projects/blob/main/EtherChannel/EtherChannel.md)
+##### [EtherChannel](https://github.com/sammiet03/Networking-Projects/blob/main/EtherChannel/EtherChannel.md)
 
 
 
