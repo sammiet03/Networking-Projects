@@ -6,9 +6,9 @@
 
 
 
-#### [Configuring VLANs](https://github.com/sammiet03/Networking-Projects/blob/main/VLAN/VLAN.md)
+##### [Configuring VLANs](https://github.com/sammiet03/Networking-Projects/blob/main/VLAN/VLAN.md)
 
-##### Configuring Voice VLANs 
+##### [Configuring Voice VLANs](https://github.com/sammiet03/Networking-Projects/blob/main/Voice%20VLAN/Voice%20VLAN.md) 
 
 ##### STP
 
