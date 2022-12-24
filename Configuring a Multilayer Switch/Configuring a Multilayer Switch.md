@@ -1,4 +1,7 @@
 ### Configuring a Multilayer Switch
+- Switches use layer 2 Switch Virtual Interfaces (SVI) instead of Layer 3 port interfaces (unless specifically configured on a Layer 3 switch). SVI interfaces are associated with a VLAN. 
+- Layer 2 switches can only have 1 IP address, used for administrative access.
+- Layer 3 switches can have multiple IP addresses on its SVI or physical interfaces and can route packets between them.
 
 ##### Network Topology 
 
