@@ -125,5 +125,10 @@ SW1(config-if)# speed 1000
 SW1(config-if)# duplex full 
 ```
 
+#### Configuring Speed
+```
+(config-if)#speed {10 | 100 | 1000 | auto}
+```
+
 
 
