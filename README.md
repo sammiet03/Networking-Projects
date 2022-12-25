@@ -15,7 +15,7 @@
 
 ##### [Configuring a Multilayer Switch](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20a%20Multilayer%20Switch/Configuring%20a%20Multilayer%20Switch.md)
 
-##### DTP and VTP
+##### [DTP and VTP](https://github.com/sammiet03/Networking-Projects/blob/main/DTP%20and%20VTP/DTP%20and%20VTP.md)
 
 
 ##### Rapid STP
