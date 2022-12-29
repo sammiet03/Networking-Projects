@@ -35,8 +35,6 @@
 
 ##### Hot Standby Routing Protocol (HSRP)
 
-##### OSPF 
-
 ##### Configuring IPv6 Addresses 
 
 ##### Static NAT and Dynamic NAT
