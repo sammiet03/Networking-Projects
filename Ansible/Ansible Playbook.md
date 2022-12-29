@@ -19,4 +19,6 @@
 
 #### Steps
 - For this project, I will be using WSL to run Linux on my Windows computer since Ansible cannot run on Windows OS. 
+- You want to open up PowerShell on your Windows computer and run as administrator.
+- Then enter the "wsl --install" command, Ubuntu is the default Linux distribution that will be installed. If you would like to install a different version then follow the documentation below. 
 - [Here is the documentation I used to download WSL on my Windows computer](https://learn.microsoft.com/en-us/windows/wsl/install)
