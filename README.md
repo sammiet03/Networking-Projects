@@ -13,10 +13,10 @@
 ### <ins>Network Fundamentals</ins>
 ##### [Basic Configuration of a Switch and Router](https://github.com/sammiet03/Networking-Projects/blob/main/Basic%20Configuration%20of%20a%20Switch%20and%20Router/Basic%20Configuration%20of%20a%20Switch%20and%20Router.md)
 ##### [TCP vs. UDP](https://github.com/sammiet03/Networking-Projects/blob/main/TCP%20and%20UDP/TCP%20and%20UDP.md)
-##### IPv4
+##### [IPv4](https://github.com/sammiet03/Networking-Projects/blob/main/IPv4/IPv4.md)
 ##### [IPv6](https://github.com/sammiet03/Networking-Projects/blob/main/IPv6/IPv6.md)
 ##### [Wireless](https://github.com/sammiet03/Networking-Projects/blob/main/Wireless/Wireless.md)
-##### Virtualization
+##### [Virtualization and Cloud Concepts](https://github.com/sammiet03/Networking-Projects/blob/main/Virtualization%20and%20Cloud%20Concepts/Virtualization%20and%20Cloud%20Concepts.md)
 
 
 
