@@ -62,7 +62,7 @@ FC | Duration/ID | Add1 | Add2 | Add3 | SC | Add4 | QoS C | HT C | Frame Body (p
 WLC – device that cooperates with wireless LWAPs to create a wireless LAN by performing some control functions for each LWAP and forwarding data between each LWAP and wired LAN
 - you can configure a maximum number of 512 WLANs on a WLC
 
-##### WAP Modes 
+### WAP Modes 
 1.	<ins>Autonomous</ins> – no central monitoring or management of APs – small networks – connect to wired network with trunk link 
 -	Don’t rely on WLC 
 -	Configured by CLI, SSH/telnet, or web GUI
@@ -111,4 +111,14 @@ WLC – device that cooperates with wireless LWAPs to create a wireless LAN by p
     - Meraki tells each AP what channel to use
     - Data traffic not sent to the cloud; it’s sent to wired network 
 
+### WLC Deployments 
+-	In split-MAC architecture 4 WLC deployment models:
+-	Unified: WLC is a hardware appliance in central location of network, support 6000 APs 
+-	Cloud-based: WLC is a VM running on a server, usually in private cloud in data center, 3000 APs
+-	Embedded: WLC integrated within a switch, 200 APs
+-	Mobility Express: WLC integrated within a AP, 100 APs
+
+LAG
+-	Link aggregation – partial implementation of 802.3ad, bundles all ports of the WLC into single port channel 
+-	Controller manages redundancy and load balancing of all the APs across the ports 
 
