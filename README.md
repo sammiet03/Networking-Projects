@@ -3,6 +3,8 @@
 
 ##### [IPv6](https://github.com/sammiet03/Networking-Projects/blob/main/IPv6/IPv6.md)
 
+##### [Wireless](https://github.com/sammiet03/Networking-Projects/blob/main/Wireless/Wireless.md)
+
 ##### SNMP
 
 ##### DNS and DHCP
