@@ -25,7 +25,7 @@
 ##### [STP](https://github.com/sammiet03/Networking-Projects/blob/main/STP/STP.md)
 ##### [Configuring a Multilayer Switch](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20a%20Multilayer%20Switch/Configuring%20a%20Multilayer%20Switch.md)
 ##### [DTP and VTP](https://github.com/sammiet03/Networking-Projects/blob/main/DTP%20and%20VTP/DTP%20and%20VTP.md)
-##### CDP and LLDP 
+##### [CDP and LLDP](https://github.com/sammiet03/Networking-Projects/blob/main/CDP%20and%20LLDP/CDP%20and%20LLDP.md)  
 ##### [EtherChannel](https://github.com/sammiet03/Networking-Projects/blob/main/EtherChannel/EtherChannel.md)
 
 
