@@ -32,7 +32,7 @@
 
 
 ### <ins>IP Connectivity</ins>
-##### Routing Table Components 
+##### [Routing Table Components](https://github.com/sammiet03/Networking-Projects/blob/main/Routing%20Table%20Components/Routing%20Table%20Components.md)
 ##### RIP 
 ##### EIGRP
 ##### OSPF
