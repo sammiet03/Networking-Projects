@@ -3,6 +3,10 @@
 ##### What is an EtherChannel?
 - An EtherChannel allows you to bundle physical links together that will act as a single virtual link that can forward traffic. 
 - Configuring an EtherChannel provides redundancy because if one of the bundled links fail, the remaining links will remain available.
+- -	A port channel switch-to-switch technique for grouping several Fast Ethernet or Gigabit Ethernet ports into 1 logical channel 
+-	Layer 2 STP and Layer 3 routing protocols will treat bundled links as one – stops STP from performing blocking
+-	Single adjacency across the link can be formed
+
 
 ##### Configuring an EtherChannel 
 ```
@@ -26,6 +30,11 @@ AND
 - Port Aggregation Protocol, is a Cisco-proprietary protocol. 
 - Modes are Auto/Desirable
 - At least one side of the link must be set to initiate auto-negotiation, while the other can be set to wait.
+- Bundle up to 8 ports active between switches 
+- Links must have same speed, duplex settings, and VLAN configuration 
+- Send packets every 30 seconds to manage link consistency, any link additions, and failures
+
+
 
 ##### Configuration using PAgP
 ```
