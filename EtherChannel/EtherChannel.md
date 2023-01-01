@@ -3,7 +3,7 @@
 ##### What is an EtherChannel?
 - An EtherChannel allows you to bundle physical links together that will act as a single virtual link that can forward traffic. 
 - Configuring an EtherChannel provides redundancy because if one of the bundled links fail, the remaining links will remain available.
-- -	A port channel switch-to-switch technique for grouping several Fast Ethernet or Gigabit Ethernet ports into 1 logical channel 
+- A port channel switch-to-switch technique for grouping several Fast Ethernet or Gigabit Ethernet ports into 1 logical channel 
 -	Layer 2 STP and Layer 3 routing protocols will treat bundled links as one – stops STP from performing blocking
 -	Single adjacency across the link can be formed
 
