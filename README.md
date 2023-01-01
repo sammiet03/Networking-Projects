@@ -17,7 +17,6 @@
 ##### [IPv6](https://github.com/sammiet03/Networking-Projects/blob/main/IPv6/IPv6.md)
 ##### [Wireless](https://github.com/sammiet03/Networking-Projects/blob/main/Wireless/Wireless.md)
 ##### [Virtualization and Cloud Concepts](https://github.com/sammiet03/Networking-Projects/blob/main/Virtualization%20and%20Cloud%20Concepts/Virtualization%20and%20Cloud%20Concepts.md)
-##### Configuring IP Addresses 
 
 
 ### <ins>Network Access</ins>
