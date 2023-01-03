@@ -69,7 +69,7 @@
 ##### Local Passwords
 ##### [Remote Access and Site-to-Site VPNs](https://github.com/sammiet03/Networking-Projects/blob/main/Remote%20Access%20and%20Site-to-Site%20VPNs/Remote%20Access%20and%20Site-to-Site%20VPNs.md)
 ##### [Configuring Access Control Lists](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20Access%20Control%20Lists/Configuring%20Access%20Control%20Lists.md) 
-##### Configuring Layer 2 security features (DHCP snooping, DAI, Port Security)
+##### [Configuring Layer 2 security features (DHCP snooping, DAI, Port Security)](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20Layer%202%20security%20features%20(DHCP%20snooping%2C%20DAI%2C%20Port%20Security)/Configuring%20Layer%202%20security%20features%20(DHCP%20snooping%2C%20DAI%2C%20Port%20Security).md)
 ##### GRE Tunnels 
 ##### Configuring a ASA Firewall 
 
