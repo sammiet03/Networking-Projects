@@ -61,3 +61,13 @@ Protocols:
     - Remote authentication protocol
     - Allows a remote access server to communicate with an authentication server to validate user access onto the network 
     - Permits client to accept a username and password and pass a query 
+
+##### Wireless Security Protocols
+
+- WEP: RC4
+- WPA: RC4/TKIP
+- WPA2: AES/CCMP
+- WPA3: SAE
+    - 2 Modes:
+        - Personal mode: WPA-PSK
+        - Enterprise mode: AAA/RADIUS Authentication server  
