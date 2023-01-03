@@ -68,10 +68,8 @@
 ##### [Security Concepts](https://github.com/sammiet03/Networking-Projects/blob/main/Security%20Concepts/Security%20Concepts.md)
 ##### Local Passwords
 ##### [Remote Access and Site-to-Site VPNs](https://github.com/sammiet03/Networking-Projects/blob/main/Remote%20Access%20and%20Site-to-Site%20VPNs/Remote%20Access%20and%20Site-to-Site%20VPNs.md)
-##### Configuring Access Control Lists 
-##### DHCP Snooping 
-##### Dynamic ARP Inspection 
-##### Port Security 
+##### [Configuring Access Control Lists](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20Access%20Control%20Lists/Configuring%20Access%20Control%20Lists.md) 
+##### Configuring Layer 2 security features (DHCP snooping, DAI, Port Security)
 ##### GRE Tunnels 
 ##### Configuring a ASA Firewall 
 
