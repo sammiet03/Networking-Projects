@@ -2,8 +2,14 @@
 
 ##### Types of STP
 - **STP** - 802.1d - Original standard for bridging and STP
+    - Port states - listening, blocking, disabled
+    - Port types - root and designated
+    - Root switch - generates/sends hellos to all other switches 
 - **PVST+** (Cisco default version) - Cisco enchancement for STP - provides separate 802.1d spanning-tree instance for each VLAN, multiple root bridges
 - **RSTP** - 802.1w - enhanced BPDU exchange - faster network convergence 
+    - STP port states listening, blocking, and disabled are merged into single state in RSTP called – discarding state 
+    - Adds ports – root, designated, alternate and backup 
+    -	Each switch can generate hellos 
 - **MSTP** - 802.1s - Maps multiple VLANs into same spanning-tree instance to save processing on switch
 - **Rapid PVST+** - Cisco's version of RSTP that also uses PVST+ and provides separate instance of 802.1w per VLAN - fast convergence times and optimal traffic flow - requires most CPU and memory of all 
 
@@ -30,3 +36,29 @@
 | 100 Mbps |  19  |
 | 1,000 Mbps |  4 |
 | 10,000 Mbps | 2 |
+
+##### To Configure STP Mode:
+```
+#spanning-tree mode [mst | psvt | rapid-pvst]
+```
+
+### PortFast
+-	BPDU – data message forwarded across LAN to detect loops in spanning tree topology – contains information about ports, switches, port priority, and addresses 
+-	Enables switch to instantaneously transition from blocking to forwarding state immediately bypassing listening/learning state
+-	Highly recommended only on non-trunking access ports
+
+##### To configure on access switch port interface:
+```
+#int f0/10
+#spanning-tree portfast 
+#spanning-tree portfast default 
+```
+
+##### To configure BPDU guard
+```
+#int f0/1
+#spanning-tree portfast
+#spanning-tree bpduguard enable
+#spanning-tree portfast bpduguard default 
+```
+
