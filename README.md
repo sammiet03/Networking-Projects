@@ -67,7 +67,7 @@
 ### <ins>Security Fundamentals</ins>
 ##### [Security Concepts](https://github.com/sammiet03/Networking-Projects/blob/main/Security%20Concepts/Security%20Concepts.md)
 ##### Local Passwords
-##### Remote Access and Site-to-Site VPNs
+##### [Remote Access and Site-to-Site VPNs](https://github.com/sammiet03/Networking-Projects/blob/main/Remote%20Access%20and%20Site-to-Site%20VPNs/Remote%20Access%20and%20Site-to-Site%20VPNs.md)
 ##### Configuring Access Control Lists 
 ##### DHCP Snooping 
 ##### Dynamic ARP Inspection 
