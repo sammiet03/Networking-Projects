@@ -65,7 +65,7 @@
 
 
 ### <ins>Security Fundamentals</ins>
-##### Security Concepts
+##### [Security Concepts](https://github.com/sammiet03/Networking-Projects/blob/main/Security%20Concepts/Security%20Concepts.md)
 ##### Local Passwords
 ##### Remote Access and Site-to-Site VPNs
 ##### Configuring Access Control Lists 
