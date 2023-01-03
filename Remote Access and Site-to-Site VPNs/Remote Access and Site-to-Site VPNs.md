@@ -1,0 +1,25 @@
+### Remote Access and Site-to-Site VPNs
+
+-	VPN – allows creation of private networks across internet, providing privacy and tunneling of IP and non-TCP/IP protocols
+    - Fits somewhere between LAN and WAN – WAN simulating a LAN link, basically your computer on one LAN connects to a different remote LAN and uses its resources remotely 
+    -	VPN makes your local host part of the remote network by using the WAN link that connects you to the remote LAN 
+    -	Benefits of VPN
+        - Security – uses enhanced encryption and authentication protocols, IPsec and SSL 
+            -	SSL (secure sockets layer) – encryption technology used with web browsers and has native SSL encryption known as Web VPN; you can also use Cisco AnyConnect SSL VPN client to provide an SSL VPN solution as well as Clientless Cisco SSL VPN
+        - Cost savings – savings over traditional leased point-to-point lines, also permits higher bandwidth links and security 
+        - Scalability – VPNs scale very quickly 
+- 3 Different categories of Enterprise-managed VPNs:
+    - Remote access – allow remote users to securely access corporate network wherever and whenever they need to 
+    - Site-to-site (intranet) – allow company to connect its remote sites to corporate backbone securely over public medium like Internet instead of requiring more expensive WAN connections like Frame Relay 
+    - Extranet VPNs – allow organization’s suppliers, partners, and customers to be connected to corporate network in limited way for business-to-business communications 
+- 2 Different categories of Provider-Managed VPNs:
+    - Layer 2 MPLS VPN – layer 2 VPN that uses MPLS labels to transport data, communication occurs between routers known as Provider Edge routers (PEs) 
+       - 2 technologies of Layer 2 MPLS VPN:
+           - Virtual private wire service (VPWS) – simplest way to enable Ethernet services over MPLS, also known as ETHoMPLS (Ethernet over MPLS) or VLL (Virtual leased line), VPWS characterized by fixed relationship between an attachment-virtual circuit and emulated virtual circuit 
+           - Virtual private LAN switching service (VPLS) – end-to-end service and is virtual because multiple instances of this service share same Ethernet broadcast domain virtually, each connection independent and isolated from others in network. A learned dynamic relationship exists between an attachment-virtual circuit and emulated virtual circuits that’s determined by customer MAC 
+     - Layer 3 MPLS VPN – provides layer 3 service across the backbone and a different IP subnet connects each site
+- Four most common Tunneling Protocols:
+    - Layer 2 Forwarding (L2F) – Cisco proprietary tunneling protocol, created for virtual private dial-up networks (VPDNs), a VPDN allows a device to use a dial-up connection to create a secure connection to corporate network, L2F replaced by L2TP
+    - Point-to-Point Tunneling Protocol (PPTP) – created by Microsoft with others to allow for secure transfer of data from remote networks to corporate network 
+    - Layer 2 Tunneling Protocol (L2TP) – created by Cisco and Microsoft to replace L2F and PPTP, merges the capabilities of both into one tunneling protocol
+    - Generic Routing Encapsulation (GRE) – predominate encapsulation protocol in use today, Cisco proprietary, forms virtual point-to-point links, allowing for a variety of protocols to be encapsulated in IP tunnels
