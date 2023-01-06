@@ -1,0 +1,41 @@
+### First Hop Redundancy Protocol 
+-	FHRP – gives you a way to configure more than one physical router to appear as if they were only a single logical one – you can simply configure a single default gateway and host machine can use its standard protocols to communicate 
+    - First Hop = reference to default router being the first router/hop packet will pass through 
+-	The virtual router is the address that is configured as the default gateway – the virtual MAC address is the address that will be returned when an ARP request is sent by a host
+-	Responsibility = to decide which physical router will actively forward traffic and which one will be placed on standby in case active router fails 
+-	If active router fails, transition to standby router 
+
+##### 3 Redundancy Protocols
+- **Hot Standby Router Protocol (HSRP)**
+- Cisco proprietary 
+- Provides redundant gateway for hosts on local subnet, drawback = not a load balanced solution 
+    -	Allows you to configure 2 or more routers into a standby group that share IP and MAC, provides a default gateway 
+    -	Each standby group you define includes the following routers:
+        -	Active – physical router that receives data sent to virtual router address and routes it onward to various destinations
+        -	Standby – backup to active router – job = monitor status of HSRP group and quickly take over packet-forwarding responsibilities if active router fails or loses communication 
+        -	Virtual – just defines role that’s held by one of the physical routers – physical router communicates as virtual router is the current active router 
+        -	Any other routers that maybe attached to subnet – don’t take primary roles of active or standby, but monitor hello messages send by active and standby routers to ensure an active and standby router exist for HSRP group they belong to – they will forward data addressed to their own IP, but never forward data addressed to virtual router
+    -	Problem is – only 1 router active and 2 or more are standby (won’t be used unless failure) = not very cost effective or efficient 
+    -	Standby group will have at least 2 routers participating in it – 1 active and 1 standby that communicate to each other using multicast Hello messages 
+    -	Hello messages provide all required communication for routers – contain information required to accomplish election, which determines active and standby router positions 
+       -	Also hold key to failover process – if standby router stops receiving hello packets from active router it then takes over the active router role
+    -	Virtual MAC address – V1 = 0000.0c07.acXX, 224.0.0.2, V2 = 0000.0c9f.fXXX, 224.0.0.102
+       -	First 24 bits (0000.0c) = vendor ID – HSRP cisco protocol, ID assigned to Cisco
+       -	Next 16 bits (07.ac) = well-known HSRP ID – this part was assigned by Cisco in the protocol
+       -	Last 8 bits (0a) = only variable bits and represent HSRP group number that you assign 
+    -	HSRP Timers
+       -	Hello – defined interval during which each of the routers send out hello messages – default interval = 3 seconds, they identify state each router is in
+       -	Hold – specifies interval standby router uses to determine whether active router is offline or out of communication, default = 10 seconds 
+       -	Active timer – monitors state of active router, timer resets each time a router in standby group receives hello packet from active router – timer expires based on hold time value 
+       -	Standby timer – used to monitor state of standby router – timer resets anytime router in standby group receives hello packet from standby router and expires based on hold time value 
+- **Virtual Router Redundancy Protocol (VRRP)**
+    - Also provides redundant gateway for hosts on local subnet, not load balanced, open standard protocol
+    - Master/Backup
+    - 0000.5e00.01xx
+    - 224.0.0.18
+- **Gateway Load Balancing Protocol (GLBP)**
+    - redundant gateway, load-balancing solution for routers, allows maximum of 4 routers in each forwarding group. By default, active router directs traffic from hosts to each successive router in the group using round-robin algorithm. Hosts are directed to send their traffic toward specific router by being given MAC address of next router in line for deployment  
+    - Active Virtual Gate/Active Virutal Forwarders
+    - 0007.b400.xxyy
+    - XX = Group #, YY = AVF #
+    - 224.0.0.102
