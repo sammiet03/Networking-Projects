@@ -1,13 +1,6 @@
-# Networking Labs
-#### Hello, here are some of the labs I have completed to learn the networking concepts on the CCNA. To demonstrate my knowledge I have shared my notes and the configurations I have completed while working on labs for each of the topics below.
-
-
-
-
-
-
-
-##### STP and HSRP Synchronization 
+# CCNA Notes
+#### Hello, here are some of my notes I have taken while studying for the CCNA exam.
+- Information is organized by Exam Topic on the CCNA Exam Guide
 
 
 ### <ins>Network Fundamentals</ins>
