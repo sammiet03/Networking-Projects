@@ -36,7 +36,7 @@
 ##### [Dynamic Routing Protocols Overview](https://github.com/sammiet03/Networking-Projects/blob/main/Routing%20Protocols%20Overview/Routing%20Protocols%20Overview.md)
 ##### [RIP](https://github.com/sammiet03/Networking-Projects/blob/main/RIP/RIP.md) 
 ##### [EIGRP](https://github.com/sammiet03/Networking-Projects/blob/main/EIGRP/EIGRP.md)
-##### OSPF
+##### [OSPF](https://github.com/sammiet03/Networking-Projects/blob/main/OSPF/OSPF.md)
 ##### IS-IS
 ##### BGP
 
