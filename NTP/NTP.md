@@ -1,5 +1,6 @@
 ### NTP
 - Network Time Protocol
+- Port 123
 - Synchronizes clocks of computer systems over packet-switched, variable-latency data networks 
 
 ```
