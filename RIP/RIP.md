@@ -17,6 +17,8 @@
 R1(config)#ip route 0.0.0.0 0.0.0.0 50.50.50.1 
 R1(config)#router rip
 R1(config-router)#default-information originate
+R1(config-router)#network 10.0.0.0
+R1(config-router)#network 172.16.0.0
 
 To check configuration 
 #show ip route rip 
