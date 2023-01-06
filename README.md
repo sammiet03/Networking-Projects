@@ -50,7 +50,7 @@
 
 
 ### <ins>IP Services</ins>
-##### Static NAT and Dynamic NAT
+##### [Static NAT and Dynamic NAT](https://github.com/sammiet03/Networking-Projects/blob/main/Static%20NAT%20and%20Dynamic%20NAT/Static%20NAT%20and%20Dynamic%20NAT.md)
 ##### DNS and DHCP
 ##### SNMP
 ##### NTP
