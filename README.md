@@ -38,7 +38,7 @@
 ##### [EIGRP](https://github.com/sammiet03/Networking-Projects/blob/main/EIGRP/EIGRP.md)
 ##### [OSPF](https://github.com/sammiet03/Networking-Projects/blob/main/OSPF/OSPF.md)
 ##### [Configuring Static Routes](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20Static%20Routes/Configuring%20Static%20Routes.md)  
-##### First Hop Redundancy Protocl (FHRP)
+##### [First Hop Redundancy Protocl (FHRP)](https://github.com/sammiet03/Networking-Projects/blob/main/FHRP/FHRP.md)
 ##### How to Configure IPv4 and IPv6 Addresses 
 
 
