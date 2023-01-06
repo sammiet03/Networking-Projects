@@ -52,9 +52,10 @@
 ### <ins>IP Services</ins>
 ##### [Static NAT and Dynamic NAT](https://github.com/sammiet03/Networking-Projects/blob/main/Static%20NAT%20and%20Dynamic%20NAT/Static%20NAT%20and%20Dynamic%20NAT.md)
 ##### DNS and DHCP
-##### SNMP
-##### NTP
-##### TFTP/FTP
+##### [SNMP](https://github.com/sammiet03/Networking-Projects/blob/main/SNMP/SNMP.md)
+##### [Syslog](https://github.com/sammiet03/Networking-Projects/blob/main/Syslog/Syslog.md)
+##### [NTP](https://github.com/sammiet03/Networking-Projects/blob/main/NTP/NTP.md)
+##### [TFTP/FTP](https://github.com/sammiet03/Networking-Projects/blob/main/TFTP%20and%20FTP/TFTP%20and%20FTP.md)
 ##### [Configuring SSH](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20SSH/SSH.md)
  
 
