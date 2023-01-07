@@ -14,6 +14,7 @@
 
 ### <ins>Network Access</ins>
 ##### [Configuring VLANs](https://github.com/sammiet03/Networking-Projects/blob/main/VLAN/VLAN.md)
+##### [Inter-VLAN Routing](https://github.com/sammiet03/Networking-Projects/blob/main/Inter-VLAN%20Routing/Inter-VLAN%20Routing.md)
 ##### [Configuring Voice VLANs](https://github.com/sammiet03/Networking-Projects/blob/main/Voice%20VLAN/Voice%20VLAN.md)
 ##### [STP](https://github.com/sammiet03/Networking-Projects/blob/main/STP/STP.md)
 ##### [Configuring a Multilayer Switch](https://github.com/sammiet03/Networking-Projects/blob/main/Configuring%20a%20Multilayer%20Switch/Configuring%20a%20Multilayer%20Switch.md)
